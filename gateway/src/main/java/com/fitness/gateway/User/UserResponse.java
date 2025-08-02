@@ -1,4 +1,4 @@
-package com.fitness.userservice.dto;
+package com.fitness.gateway.User;
 
 
 import lombok.Data;
@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 public class UserResponse {
 
     private String id;
-    private String keyClockId;
+    private String keycloakId;
     private String email;
     private String password;
     private String firstName;
